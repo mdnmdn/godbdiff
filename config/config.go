@@ -8,8 +8,9 @@ import (
 )
 
 type Config struct {
-	Source Connection `yaml:"source,omitempty"`
-	Target Connection `yaml:"target,omitempty"`
+	Source  Connection `yaml:"source,omitempty"`
+	Target  Connection `yaml:"target,omitempty"`
+	Schemas []string   `yaml:"schemas"`
 }
 
 type Connection struct {

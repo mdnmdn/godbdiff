@@ -1,0 +1,6 @@
+source:
+  connectionString: fdsddf
+target:
+  connectionString: asdasd
+
+schemas: ["dbo"]
